@@ -1,0 +1,129 @@
+html ,body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    color: #333;
+}
+.home{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #00c1db ;
+
+}
+.home .welcome{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.logo{
+    position: absolute;
+    font-size: 1.5rem;
+    line-height: 3rem; 
+    /* defini la hauteur des lignes au sein de l'element */
+    padding: 10px 4rem;
+    
+}
+.logo span{
+    position: fixed;
+    display: inline-block;
+    background-color:  white;
+    left: 10px;
+    border: 1px solid #008da0;
+    border-radius: 50%;
+    text-align: center;
+    color: #00c1db;
+    height: 3rem;
+    width: 3rem;
+}
+.welcome{
+    font-size: 1.7rem;
+    
+}
+
+.welcome h1{
+    border-bottom: 2px dashed white;
+    margin: 0 4rem 2rem 4rem;
+    padding: 0 0 2rem 0;
+    font-size: 4rem;
+}
+.btn {
+    border:1px solid #fff;
+    border-radius: 10px;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+.services{
+    padding: 4rem;
+}
+.services > h2{
+    color: #008da0;
+}
+.services > div{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}
+.services .service-block {
+	width: 30%;
+	margin: 1%; 
+	box-sizing: border-box;  
+}
+
+.services .service-block .service-img{
+    border: 1px solid #ddd;
+    height: 200px;
+    background-color: #ddd;
+}
+
+.services .service-block  > h3{
+    color:  #008da0;
+    text-align: center;
+}
+.contacts{
+background-color: #ddd;
+padding: 4rem 4rem;
+}
+.contacts form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.contacts form label{
+    margin: 1rem;
+}
+
+.contacts form input , .contacts form textarea{
+    border: 1px solid #008da0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.contacts form textarea{
+    height: 15rem;
+}
+.contacts form input:focus, .contacts form textarea:focus {
+	border: 1px solid #fff;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #00a3ba;
+	color: #fff;  
+}
+.contacts form input[type="submit"]{
+    width: 25%;
+    background-color: #008da0;
+    margin: 1rem auto;
+   
+}
+
+footer {
+	padding: 1rem 4rem;
+	background-color: #004a54;
+	color: #008da0;
+	text-align: center;
+	font-size: 0.8rem;  
+}
